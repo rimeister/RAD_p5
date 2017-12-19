@@ -5,8 +5,9 @@ gulp.task('build', function() {
   gulp.src('source/RAD_p5.js')
     .pipe(minify({
         ext:{
-            min:'.js'
-        }
+            min:'.min.js'
+        },
+        noSource: true
     }))
     .pipe(gulp.dest('distribution'))
 });
