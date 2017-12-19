@@ -1,0 +1,12 @@
+{
+  "name": "RAD_p5",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rimeister/RAD_p5.git"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-minify": "^2.1.0"
+  }
+}
